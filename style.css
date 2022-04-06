@@ -1,0 +1,88 @@
+body {
+  /*Anything set here applies to all other elements*/
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  width: 100wv;
+  overflow-x: hidden;
+  /*width: 100vw;*/
+}
+
+/*this div wraps the image and paragraph*/
+.wrapper
+{
+  /*width: 100vw;*/
+}
+
+.img-me
+{
+  background-color: #d9d7ca;
+  width: 100vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.a-little-about-me-header
+{
+  width: 100vw;
+  text-align: center;
+  /* top left+right bottom */
+  padding: 0px 5px 0px;
+  font-family: arial;
+  font-size: 10px;
+  color: #69626E;
+  background-color: white;
+  line-height: normal;
+  /* Border attributes */
+  border-bottom-style: solid;
+  border-color: #080357;
+}
+/*This is the paragraph container. Edit about-me-paragraph p*/
+.about-me-paragraph
+{
+  width: 100vw;
+  /* top left+right bottom */
+  padding: 0px 5px 5px 0px;
+}
+.about-me-paragraph p
+{
+  /* top left+right bottom */
+  width: 100vw;
+  padding: 0px 5px 0px;
+  font-family: arial;
+  font-size: 17px;
+  color: #69626D;
+  line-height: normal;
+}
+
+.below-image
+{
+  width: 100vw;
+  background-color: white;
+  /* Text attributes */
+  color: black;
+  text-align: left;
+  /* top left+right bottom */
+  padding: 0px 20px 0px;
+  /* Border attributes */
+  border-top-style: solid;
+  border-color: #080357;
+}
+/*This affects the link*/
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.below-image a
+{
+  color: #080357;
+  font-size: 17px;
+  font-family: arial;
+}
